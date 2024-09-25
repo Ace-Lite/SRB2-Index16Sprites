@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="918.0" prefWidth="1058.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.teambluespring.srb2rotations.SRB2Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="918.0" prefWidth="1117.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="434.0" layoutY="434.0" style="&#10;" text="Rotations" textAlignment="CENTER" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Button fx:id="Sprite_B" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="134.0" layoutY="250.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Side / Dia-back B" />
+            <Button fx:id="Sprite_3" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="134.0" layoutY="386.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Side 3" />
+            <Button fx:id="Sprite_A" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="134.0" layoutY="522.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Side / Dia-front A" />
+            <Button fx:id="Sprite_2" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="134.0" layoutY="658.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Dia-front 2" />
+            <Button fx:id="Sprite_5" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="404.0" layoutY="114.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Back  5" />
+            <Button fx:id="Sprite_C" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="268.0" layoutY="114.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Back / Dia-back  C" />
+            <Button fx:id="Sprite_4" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="132.0" layoutY="114.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Dia-back 4" />
+            <Button fx:id="Sprite_9" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="268.0" layoutY="658.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Front / Dia-front 9" />
+            <Button fx:id="Sprite_1" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="404.0" layoutY="658.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Front 1" />
+            <Button fx:id="Sprite_G" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="540.0" layoutY="658.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Front / Dia-front  G" />
+            <Button fx:id="Sprite_D" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="540.0" layoutY="114.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Back / Dia-back  D" />
+            <Button fx:id="Sprite_6" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="676.0" layoutY="114.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Dia-back 6" />
+            <Button fx:id="Sprite_E" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="676.0" layoutY="250.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Side / Dia-back E" />
+            <Button fx:id="Sprite_7" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="676.0" layoutY="386.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Side 7" />
+            <Button fx:id="Sprite_F" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="676.0" layoutY="522.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Side / Dia-front F" />
+            <Button fx:id="Sprite_8" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="676.0" layoutY="658.0" maxHeight="136.0" maxWidth="136.0" minHeight="136.0" minWidth="136.0" mnemonicParsing="false" onAction="#clickToGetImage" prefHeight="136.0" prefWidth="136.0" text="Dia-front 8" />
+            <Label alignment="CENTER" layoutX="451.0" layoutY="829.0" style="&#10;" text="Front" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="451.0" layoutY="48.0" style="&#10;" text="Back" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="60.0" layoutY="434.0" style="&#10;" text="Left" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="847.0" layoutY="434.0" style="&#10;" text="Right" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="SaveAs" layoutX="835.0" layoutY="750.0" mnemonicParsing="false" onAction="#saveAsClick" prefHeight="37.0" prefWidth="166.0" text="SaveAs" />
+            <CheckBox fx:id="BoolLeftToRight" layoutX="834.0" layoutY="233.0" mnemonicParsing="false" onAction="#boolSetLeftToRight" text="Mirror Left-to-Right Sprites" />
+            <CheckBox fx:id="BoolLongSprites" layoutX="834.0" layoutY="198.0" mnemonicParsing="false" text="Long Sprites (2.2.14+)" />
+            <TextField fx:id="SpriteName" layoutX="834.0" layoutY="154.0" promptText="Ex. JVFX" />
+            <Label alignment="CENTER" layoutX="834.0" layoutY="114.0" style="&#10;" text="Sprite Name" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="BoolRightToLeft" layoutX="834.0" layoutY="267.0" mnemonicParsing="false" onAction="#boolSetRightToLeft" text="Mirror Right-to-Left Sprites" />
+            <Button fx:id="Clear" layoutX="835.0" layoutY="689.0" mnemonicParsing="false" onAction="#clearClick" prefHeight="37.0" prefWidth="166.0" text="Clear" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
